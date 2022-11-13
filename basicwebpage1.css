@@ -1,88 +1,46 @@
 body {
-    background-color: #ffeed8;
-    font-family: "Open Sans", sans-serif;
-    padding: 5px 25px;
+    background-color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
     font-size: 18px;
     margin: 0;
-    color: #444;
   }
-  
-  h1, h2 {
-    font-family: "Merriweather", serif;
-    clear: both; /* Puts lists on new line */
-  }
-  
-  img {
-    margin:22px 10px 10px 0px;
-    float: left;
-  }
-  
-  /* Navbar */
-  
-  ul.nav  {
-    list-style-type: none;
-    margin: 0;
+  .navbar ul{
+    list-style: none;
+    background-color: rgb(187, 18, 46);
     padding: 0;
-    overflow: hidden;
-  }
-  
-  ul.nav li {
-    float: left;
+    margin: 0;
     text-align: center;
   }
-  
-  ul.nav a:link, ul.nav a:visited {
-    display: block;
-    width: 165px;
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar a{
+    text-decoration: none;
     color: white;
-    background-color: #aa0000;
-    padding: 3px;
-    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
   }
-  
-  ul.nav a:hover, ul.nav a:active {
-    background-color: red;
-  }
-  
-  /* Containers */
-  
-  div.container {
-    width: 700px;
-    margin: auto;
-  }
-  
-  /* Tables */
-  
-  table td {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    padding: 15px;
-  }
-  
-  /* Facts */
-  button {
-    margin-left: 25px;
-    border-radius: 6px;
-    font-size: 28px;
-    color: #4e4e55;
-    text-decoration: none;
-    cursor: pointer;
-    background-color: #ddd;
-    border: 3px solid #555;
-    height: 60px;
-    width: 200px;
-  }
-  
-  button:hover{
-    opacity: .75;
-  }
-  
-  #facts{
-    position: relative;
-    top: 30px;
-    left: 25px;
-    font-family: "Merriweather", serif;
-    font-size: 50px;
-    color: #aa0000;
-  }
+.navbar a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+  p {
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
